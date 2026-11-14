@@ -1,0 +1,171 @@
+{
+  "message": "dry-run only; no files changed",
+  "image_count": 22,
+  "family_count": 10,
+  "duplicate_family_count": 6,
+  "exact_groups": [
+    [
+      "copies/scene_a_copy.jpg",
+      "originals/scene_a.jpg"
+    ],
+    [
+      "copies/scene_b_copy.jpg",
+      "originals/scene_b.jpg"
+    ],
+    [
+      "copies/scene_c_copy.jpg",
+      "originals/scene_c.jpg"
+    ],
+    [
+      "copies/scene_d_copy.jpg",
+      "originals/scene_d.jpg"
+    ],
+    [
+      "copies/scene_e_copy.jpg",
+      "originals/scene_e.jpg"
+    ],
+    [
+      "copies/scene_f_copy.jpg",
+      "originals/scene_f.jpg"
+    ]
+  ],
+  "families": [
+    {
+      "id": "F0001",
+      "keeper": "unique/unique_1.jpg",
+      "members": [
+        {
+          "path": "originals/scene_a.jpg",
+          "reason": "smaller file size",
+          "match": "near (connected family)"
+        },
+        {
+          "path": "copies/scene_a_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        },
+        {
+          "path": "exports/scene_a_export.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        }
+      ],
+      "bytes_reclaimable": 44225
+    },
+    {
+      "id": "F0002",
+      "keeper": "originals/scene_b.jpg",
+      "members": [
+        {
+          "path": "copies/scene_b_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "exact"
+        },
+        {
+          "path": "exports/scene_b_export.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        }
+      ],
+      "bytes_reclaimable": 2838
+    },
+    {
+      "id": "F0003",
+      "keeper": "originals/scene_c.jpg",
+      "members": [
+        {
+          "path": "copies/scene_c_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "exact"
+        },
+        {
+          "path": "exports/scene_c_export.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        }
+      ],
+      "bytes_reclaimable": 5606
+    },
+    {
+      "id": "F0004",
+      "keeper": "originals/scene_d.jpg",
+      "members": [
+        {
+          "path": "copies/scene_d_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "exact"
+        }
+      ],
+      "bytes_reclaimable": 5815
+    },
+    {
+      "id": "F0005",
+      "keeper": "originals/scene_e.jpg",
+      "members": [
+        {
+          "path": "copies/scene_e_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "exact"
+        },
+        {
+          "path": "exports/scene_e_export.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        }
+      ],
+      "bytes_reclaimable": 8473
+    },
+    {
+      "id": "F0006",
+      "keeper": "originals/scene_f.jpg",
+      "members": [
+        {
+          "path": "copies/scene_f_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "exact"
+        },
+        {
+          "path": "exports/scene_f_export.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        }
+      ],
+      "bytes_reclaimable": 19900
+    },
+    {
+      "id": "F0007",
+      "keeper": "exports/scene_d_export.jpg",
+      "members": [],
+      "bytes_reclaimable": 0
+    },
+    {
+      "id": "F0008",
+      "keeper": "unique/unique_2.jpg",
+      "members": [],
+      "bytes_reclaimable": 0
+    },
+    {
+      "id": "F0009",
+      "keeper": "unique/unique_3.jpg",
+      "members": [],
+      "bytes_reclaimable": 0
+    },
+    {
+      "id": "F0010",
+      "keeper": "unique/unique_4.jpg",
+      "members": [],
+      "bytes_reclaimable": 0
+    }
+  ],
+  "skipped": [
+    {
+      "path": "corrupt_1.jpg",
+      "reason": "cannot identify image file '/home/hatch/workspace/new-competitions/ugreen/local-prototype/fixtures2/corrupt_1.jpg'"
+    },
+    {
+      "path": "corrupt_2.jpg",
+      "reason": "Truncated File Read"
+    }
+  ],
+  "bytes_reclaimable": 86857
+}
