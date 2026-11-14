@@ -1,0 +1,11 @@
+dry-run only; no files changed
+Exact SHA-256 group: copies/scene_copy.jpg, originals/scene.jpg
+F0001 keeper: originals/scene.jpg
+  copies/scene_copy.jpg: screenshot/export/copy/edited filename hint; exact
+  exports/scene_export.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  bytes reclaimable: 12598
+F0002 keeper: different.jpg
+  bytes reclaimable: 0
+Skipped:
+  corrupt.jpg: cannot identify image file '/home/hatch/workspace/new-competitions/ugreen/local-prototype/fixtures/corrupt.jpg'
+Images: 4; families: 2; duplicate families: 1
