@@ -1,0 +1,44 @@
+{
+  "message": "dry-run only; no files changed",
+  "image_count": 4,
+  "family_count": 2,
+  "duplicate_family_count": 1,
+  "exact_groups": [
+    [
+      "copies/scene_copy.jpg",
+      "originals/scene.jpg"
+    ]
+  ],
+  "families": [
+    {
+      "id": "F0001",
+      "keeper": "originals/scene.jpg",
+      "members": [
+        {
+          "path": "copies/scene_copy.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "exact"
+        },
+        {
+          "path": "exports/scene_export.jpg",
+          "reason": "screenshot/export/copy/edited filename hint",
+          "match": "near (connected family)"
+        }
+      ],
+      "bytes_reclaimable": 12598
+    },
+    {
+      "id": "F0002",
+      "keeper": "different.jpg",
+      "members": [],
+      "bytes_reclaimable": 0
+    }
+  ],
+  "skipped": [
+    {
+      "path": "corrupt.jpg",
+      "reason": "cannot identify image file '/home/hatch/workspace/new-competitions/ugreen/local-prototype/fixtures/corrupt.jpg'"
+    }
+  ],
+  "bytes_reclaimable": 12598
+}
