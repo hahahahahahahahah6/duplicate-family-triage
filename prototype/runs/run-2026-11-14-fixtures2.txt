@@ -1,0 +1,43 @@
+dry-run only; no files changed
+Exact SHA-256 group: copies/scene_a_copy.jpg, originals/scene_a.jpg
+Exact SHA-256 group: copies/scene_b_copy.jpg, originals/scene_b.jpg
+Exact SHA-256 group: copies/scene_c_copy.jpg, originals/scene_c.jpg
+Exact SHA-256 group: copies/scene_d_copy.jpg, originals/scene_d.jpg
+Exact SHA-256 group: copies/scene_e_copy.jpg, originals/scene_e.jpg
+Exact SHA-256 group: copies/scene_f_copy.jpg, originals/scene_f.jpg
+F0001 keeper: unique/unique_1.jpg
+  originals/scene_a.jpg: smaller file size; near (connected family)
+  copies/scene_a_copy.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  exports/scene_a_export.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  bytes reclaimable: 44225
+F0002 keeper: originals/scene_b.jpg
+  copies/scene_b_copy.jpg: screenshot/export/copy/edited filename hint; exact
+  exports/scene_b_export.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  bytes reclaimable: 2838
+F0003 keeper: originals/scene_c.jpg
+  copies/scene_c_copy.jpg: screenshot/export/copy/edited filename hint; exact
+  exports/scene_c_export.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  bytes reclaimable: 5606
+F0004 keeper: originals/scene_d.jpg
+  copies/scene_d_copy.jpg: screenshot/export/copy/edited filename hint; exact
+  bytes reclaimable: 5815
+F0005 keeper: originals/scene_e.jpg
+  copies/scene_e_copy.jpg: screenshot/export/copy/edited filename hint; exact
+  exports/scene_e_export.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  bytes reclaimable: 8473
+F0006 keeper: originals/scene_f.jpg
+  copies/scene_f_copy.jpg: screenshot/export/copy/edited filename hint; exact
+  exports/scene_f_export.jpg: screenshot/export/copy/edited filename hint; near (connected family)
+  bytes reclaimable: 19900
+F0007 keeper: exports/scene_d_export.jpg
+  bytes reclaimable: 0
+F0008 keeper: unique/unique_2.jpg
+  bytes reclaimable: 0
+F0009 keeper: unique/unique_3.jpg
+  bytes reclaimable: 0
+F0010 keeper: unique/unique_4.jpg
+  bytes reclaimable: 0
+Skipped:
+  corrupt_1.jpg: cannot identify image file '/home/hatch/workspace/new-competitions/ugreen/local-prototype/fixtures2/corrupt_1.jpg'
+  corrupt_2.jpg: Truncated File Read
+Images: 22; families: 10; duplicate families: 6
